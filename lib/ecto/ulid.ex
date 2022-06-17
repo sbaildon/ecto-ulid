@@ -233,26 +233,48 @@ defmodule Ecto.ULID do
   defp v(?8), do: true
   defp v(?9), do: true
   defp v(?A), do: true
+  defp v(?a), do: true
   defp v(?B), do: true
+  defp v(?b), do: true
   defp v(?C), do: true
+  defp v(?c), do: true
   defp v(?D), do: true
+  defp v(?d), do: true
   defp v(?E), do: true
+  defp v(?e), do: true
   defp v(?F), do: true
+  defp v(?f), do: true
   defp v(?G), do: true
+  defp v(?g), do: true
   defp v(?H), do: true
+  defp v(?h), do: true
   defp v(?J), do: true
+  defp v(?j), do: true
   defp v(?K), do: true
+  defp v(?k), do: true
   defp v(?M), do: true
+  defp v(?m), do: true
   defp v(?N), do: true
+  defp v(?n), do: true
   defp v(?P), do: true
+  defp v(?p), do: true
   defp v(?Q), do: true
+  defp v(?q), do: true
   defp v(?R), do: true
+  defp v(?r), do: true
   defp v(?S), do: true
+  defp v(?s), do: true
   defp v(?T), do: true
+  defp v(?t), do: true
   defp v(?V), do: true
+  defp v(?v), do: true
   defp v(?W), do: true
+  defp v(?w), do: true
   defp v(?X), do: true
+  defp v(?x), do: true
   defp v(?Y), do: true
+  defp v(?y), do: true
   defp v(?Z), do: true
+  defp v(?z), do: true
   defp v(_), do: false
 end

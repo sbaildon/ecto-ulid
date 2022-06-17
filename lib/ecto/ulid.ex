@@ -162,27 +162,49 @@ defmodule Ecto.ULID do
   defp d(?8), do: 8
   defp d(?9), do: 9
   defp d(?A), do: 10
+  defp d(?a), do: 10
   defp d(?B), do: 11
+  defp d(?b), do: 11
   defp d(?C), do: 12
+  defp d(?c), do: 12
   defp d(?D), do: 13
+  defp d(?d), do: 13
   defp d(?E), do: 14
+  defp d(?e), do: 14
   defp d(?F), do: 15
+  defp d(?f), do: 15
   defp d(?G), do: 16
+  defp d(?g), do: 16
   defp d(?H), do: 17
+  defp d(?h), do: 17
   defp d(?J), do: 18
+  defp d(?j), do: 18
   defp d(?K), do: 19
+  defp d(?k), do: 19
   defp d(?M), do: 20
+  defp d(?m), do: 20
   defp d(?N), do: 21
+  defp d(?n), do: 21
   defp d(?P), do: 22
+  defp d(?p), do: 22
   defp d(?Q), do: 23
+  defp d(?q), do: 23
   defp d(?R), do: 24
+  defp d(?r), do: 24
   defp d(?S), do: 25
+  defp d(?s), do: 25
   defp d(?T), do: 26
+  defp d(?t), do: 26
   defp d(?V), do: 27
+  defp d(?v), do: 27
   defp d(?W), do: 28
+  defp d(?w), do: 28
   defp d(?X), do: 29
+  defp d(?x), do: 29
   defp d(?Y), do: 30
+  defp d(?y), do: 30
   defp d(?Z), do: 31
+  defp d(?z), do: 31
   defp d(_), do: throw(:error)
 
   defp valid?(

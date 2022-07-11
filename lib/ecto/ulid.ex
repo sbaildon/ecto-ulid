@@ -109,28 +109,28 @@ defmodule Ecto.ULID do
   defp e(7), do: ?7
   defp e(8), do: ?8
   defp e(9), do: ?9
-  defp e(10), do: ?A
-  defp e(11), do: ?B
-  defp e(12), do: ?C
-  defp e(13), do: ?D
-  defp e(14), do: ?E
-  defp e(15), do: ?F
-  defp e(16), do: ?G
-  defp e(17), do: ?H
-  defp e(18), do: ?J
-  defp e(19), do: ?K
-  defp e(20), do: ?M
-  defp e(21), do: ?N
-  defp e(22), do: ?P
-  defp e(23), do: ?Q
-  defp e(24), do: ?R
-  defp e(25), do: ?S
-  defp e(26), do: ?T
-  defp e(27), do: ?V
-  defp e(28), do: ?W
-  defp e(29), do: ?X
-  defp e(30), do: ?Y
-  defp e(31), do: ?Z
+  defp e(10), do: ?a
+  defp e(11), do: ?b
+  defp e(12), do: ?c
+  defp e(13), do: ?d
+  defp e(14), do: ?e
+  defp e(15), do: ?f
+  defp e(16), do: ?g
+  defp e(17), do: ?h
+  defp e(18), do: ?j
+  defp e(19), do: ?k
+  defp e(20), do: ?m
+  defp e(21), do: ?n
+  defp e(22), do: ?p
+  defp e(23), do: ?q
+  defp e(24), do: ?r
+  defp e(25), do: ?s
+  defp e(26), do: ?t
+  defp e(27), do: ?v
+  defp e(28), do: ?w
+  defp e(29), do: ?x
+  defp e(30), do: ?y
+  defp e(31), do: ?z
 
   defp decode(
          <<c1::8, c2::8, c3::8, c4::8, c5::8, c6::8, c7::8, c8::8, c9::8, c10::8, c11::8, c12::8,
